@@ -174,11 +174,16 @@ img {
     height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 .features-section, 
 .team,
 .clients {
     padding-top: 94px;
+}
+.features-descr svg {
+    margin-bottom: 30px;
 }
 .team{
     background: #F5F4FA;

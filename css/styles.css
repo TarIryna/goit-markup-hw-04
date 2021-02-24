@@ -34,6 +34,7 @@ img {
     max-width: 16px;
     max-height: 16px;
     fill: var(--main-color);
+    margin-right: 10px;
 }
 .container {
     padding: 0 15px;
@@ -109,9 +110,6 @@ img {
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
-}
-.contacts{
-    margin-left: 10px;
 }
 
 .contacts:focus,

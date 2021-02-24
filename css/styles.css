@@ -25,8 +25,15 @@ ul{
     margin: 0;
     padding: 0;
 }
-img{
+img {
     display: block;
+}
+.icn{
+    display: block;
+    align-items: center;
+    max-width: 16px;
+    max-height: 16px;
+    fill: var(--main-color);
 }
 .container {
     padding: 0 15px;
@@ -55,6 +62,7 @@ img{
     font-size: 14px;
     line-height: 16px;
     display: flex;
+    align-items: center;
     margin-left: 93px;
 }
 .page-nav{
@@ -85,37 +93,35 @@ img{
 .contact-list li:last-child{
     margin-left: 50px;
 }
-.contact-list li {
-    display: flex;
-}
 
-.contacts{
+.cont-l,
+.cont-l a,
+.cont-l svg{
+    display: flex;
+    align-items: center;
+}
+.contact-list svg{
+    max-width: 16px;
+}
+.cont-l a{
     color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.02em;
 }
-.contact-list li::before{
-    content: "";
-    display: inline-block;
-    width: 16px;
-    height: 16px;
-    margin-right: 10px;
-    align-items: inherit;
+.contacts{
+    margin-left: 10px;
+}
 
-}
-.contact-list li:nth-child(1)::before {
-    background: url(../images/icons/envelope.svg);
-}
-.contact-list li:nth-child(2)::before {
-    background: url(../images/icons/smartphone.svg);
-}
-.contacts:hover::before,   
 .contacts:focus,
-.contacts:hover {
+.contacts:hover,
+.icn:focus,
+.icn:hover {
     color: var(--blue-color);
+    fill: var(--blue-color);
 }
+ 
 
 .hero .container{
     padding: 200px;

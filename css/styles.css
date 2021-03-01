@@ -257,6 +257,9 @@ img {
 .social-links a:hover svg{
     fill: var(--white-color);
 }
+.social-links a:focus svg{
+    fill: var(--white-color);
+}
 .foto-works{
     display: flex;
 }
